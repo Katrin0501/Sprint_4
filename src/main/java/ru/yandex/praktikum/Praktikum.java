@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class Praktikum {
 
     public static void main(String[] args) {
-
+        System.out.println("Введите Имя и Фамилия через пробел");
         Scanner in = new Scanner(System.in);
         String name = in.nextLine();
         Account account = new Account(name);
         account.checkNameToEmboss();
+
 
     }
 
